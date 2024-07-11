@@ -1,5 +1,5 @@
+// if I replace p-24 to p-25 .....the padding effect of p-24 will be removed , since there is no p-25 in documentation of tailwind css,....... However we can get the p-25 effect, since p-24 value is padding of 96px , p-25 is approx value to 100px ,so instead of writing p-25 , we can write it has p-[100px] .It will work
 import Image from "next/image";
-
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
