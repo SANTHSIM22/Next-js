@@ -1,11 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
-import logo from '/public/logo.png'
 import Image from 'next/image'
-const NavBar = () => {
+import logo from '/public/logo.png'
+const Footer = () => {
   return (
     <>
-     <div className=" flex  bottom-0 w-full bg-gray-800 text-white" >
+
+     <div className="fixed flex  bottom-0 w-full bg-gray-800 text-white" >
      <Image
        src={logo}
        alt="logo"
@@ -15,9 +16,9 @@ const NavBar = () => {
     
     </Image>
         <ul className="flex mt-6 space-x-4">
-            <Link href="/" ><li>Home</li></Link>
-            <Link href="/about"  prefetch = {false}><li>About</li></Link>
-            <Link href="/"><li>Links</li></Link>
+            <Link href="/"><li>place</li></Link>
+            <Link href="/contactme"><li>contact me?</li></Link>
+            <Link href="/about"><li>About</li></Link>
             <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><li>Login</li></Link>
         </ul>
      </div>
@@ -25,5 +26,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
-
+export default Footer

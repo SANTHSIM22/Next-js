@@ -1,11 +1,8 @@
 import React from 'react'
-import Button from './components/Button'
 
 const page = () => {
   return (
-    <>
-<h1>YO guys , whatsup??</h1>
-    </>
+    <div><h1 className="text-9xl">To contact me ....meet me personally</h1></div>
   )
 }
 
