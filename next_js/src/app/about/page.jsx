@@ -4,7 +4,7 @@ import Button from '../components/Button'
 const page = () => {
   return (
     <div>
-         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h1 className="text-3xl text-center hover:text-blue-800 cursor-pointer p-5 bg-orange-600 ">SANTHSIM VIRILE DSOUZA</h1></a>
+         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h1 className="text-3xl text-center hover:text-blue-800 cursor-pointer p-5 bg-gray-9 00 ">SANTHSIM VIRILE DSOUZA</h1></a>
     <p>brief description: I am lazy but I like coding</p>
     <Button/>
     <p> Learnings: 
